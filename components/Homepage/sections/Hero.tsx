@@ -33,7 +33,7 @@ const Hero = () => {
             });
     };
     return (
-        <div id='home' className='animation-bg lg:h-[100vh] pt-[90px] w-screen flex flex-col items-center justify-start px-[20px]'>
+        <div id='home' className='text-white animation-bg lg:h-[100vh] pt-[90px] w-screen flex flex-col items-center justify-start px-[20px]'>
             <div className=' h-[75%] w-full flex flex-col lg:flex-row items-end justify-between'>
                 <div className=' lg:w-[50%] pb-[10px]'>
                     <FadeInFromBottom>

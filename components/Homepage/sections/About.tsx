@@ -16,7 +16,7 @@ const About = () => {
     return (
         <section
             id='about'
-            className=' about-bg lg:h-[100vh] pt-[100px] w-screen flex flex-col items-center justify-center px-5 lg:px-[20px]'
+            className=' text-white about-bg lg:h-[100vh] pt-[100px] w-screen flex flex-col items-center justify-center px-5 lg:px-[20px]'
         >
             <div className={tektur.className}>
                 <Link href={"/#home"} className=' flex items-center justify-center mb-5'>

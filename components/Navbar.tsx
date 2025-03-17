@@ -28,7 +28,7 @@ const Navbar = () => {
     };
     return (
         <div
-            className='fixed z-50 h-[90px] bg-transparent w-screen bottom-shadow'
+            className=' text-white fixed z-50 h-[90px] bg-transparent w-screen bottom-shadow'
         >
             <div className=' hidden lg:block'>
                 <FadeIn>
