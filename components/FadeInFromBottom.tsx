@@ -11,7 +11,7 @@ interface FadeInFromBottomProps {
 
 const FadeInFromBottom: React.FC<FadeInFromBottomProps> = ({ children, duration = 0.5, delay = 0 }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { triggerOnce: false, margin: "-50px" }); // Triggers when 50px into view
+  const isInView = useInView(ref, { once: false, margin: "-50px" }); // Triggers when 50px into view
 
   return (
     <motion.div
