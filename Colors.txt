@@ -1,0 +1,2 @@
+Background color: #171717 (black)
+Text color: #fff (white)
