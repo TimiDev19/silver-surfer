@@ -66,6 +66,13 @@ const Navbar = () => {
                                             About
                                             <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                                         </Link>
+                                        <Link
+                                            href="/#video"
+                                            className="relative group"
+                                        >
+                                            Video
+                                            <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                                        </Link>
                                         {/* <Link
                                             href="#"
                                             className="relative group"
@@ -194,6 +201,14 @@ const Navbar = () => {
                                             onClick={toggleSidebar}
                                         >
                                             About
+                                            <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                                        </Link>
+                                        <Link
+                                            href="/#video"
+                                            className="relative group text-white block w-fit mb-4 text-3xl"
+                                            onClick={toggleSidebar}
+                                        >
+                                            Video
                                             <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                                         </Link>
                                         {/* <Link
