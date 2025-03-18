@@ -18,7 +18,7 @@ const Video = () => {
     return (
         <div
             id="video"
-            className=' w-screen flex flex-col items-center justify-center min-h-[100vh]'
+            className=' w-screen flex flex-col items-center justify-center min-h-[100vh] text-white'
         >
             <div className={tektur.className}>
                 <FadeIn>
