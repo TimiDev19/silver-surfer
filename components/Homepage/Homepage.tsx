@@ -5,7 +5,7 @@ import Video from './sections/Video'
 
 const Homepage = () => {
     return (
-        <div className=' h-screen overflow-y-scroll scroll-smooth'>
+        <div className=' h-[100vh] w-[100vw] overflow-y-scroll scroll-smooth'>
             <Hero />
             <About />
             {/* <Video /> */}

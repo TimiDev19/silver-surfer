@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh] overflow-y-scroll scroll-smooth`}
       >
-        <main className=" w-screen h-screen">
+        <main className=" w-[100vw] h-[100vh]">
           <Navbar />
           {children}
         </main>
