@@ -41,14 +41,14 @@ const Navbar = () => {
                                     <Image
                                         src={Logo}
                                         alt='$SKINNY LOGO'
-                                        className=' h-[80px] w-[80px] rounded-full border border-[#ffffff1a]'
+                                        className=' h-[70px] w-[70px] rounded-full border border-[#ffffff1a]'
                                     />
-                                    <h1 className={`mx-2 text-3xl`}>SILVER SURFER</h1>
+                                    {/* <h1 className={`mx-2 text-3xl`}>SILVER SURFER</h1> */}
                                 </Link>
                             </div>
                         </div>
 
-                        <div className=' w-[30%] flex items-center justify-center'>
+                        <div className=' w-fit flex items-center justify-center'>
                             <div className={tektur.className}>
                                 <div className={'flex items-center justify-center'}>
                                     <nav className="space-x-4">
@@ -66,13 +66,20 @@ const Navbar = () => {
                                             About
                                             <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                                         </Link>
-                                        {/* <Link
+                                        <Link
+                                            href="/#chart"
+                                            className="relative group"
+                                        >
+                                            Chart
+                                            <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                                        </Link>
+                                        <Link
                                             href="/#video"
                                             className="relative group"
                                         >
                                             Video
                                             <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
-                                        </Link> */}
+                                        </Link>
                                         {/* <Link
                                             href="#"
                                             className="relative group"
@@ -86,27 +93,7 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        <div className=' w-[30%] flex items-center justify-end'>
-                            <div className={tektur.className}>
-                                <div className=' flex items-center justify-center'>
-                                    <div className=' text-right mr-2'>
-                                        <h1>
-                                            The people's memecoin <br />
-                                            <span className=' text-green-700'>To the moon we go 🚀</span>
-                                        </h1>
-                                    </div>
-
-                                    <Link target='blank' href={"https://t.me/slvrsurfersol"} className=' mx-2 p-2 border border-white rounded-2xl flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'>
-                                        <Image
-                                            src={Logo}
-                                            alt='$SKINNY LOGO'
-                                            className=' h-[30px] w-[30px] rounded-full border border-[#ffffff1a] mr-4'
-                                        />
-                                        Join Telegram
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        {/*  */}
                     </div>
                 </FadeIn>
             </div>
@@ -130,14 +117,8 @@ const Navbar = () => {
                         </div>
 
 
-                        <Link target='blank' href={"https://t.me/slvrsurfersol"} className=' mx-2 p-2 border border-white rounded-2xl flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'>
-                            <Image
-                                src={Logo}
-                                alt='$SKINNY LOGO'
-                                className=' h-[30px] w-[30px] rounded-full border border-[#ffffff1a] mr-4'
-                            />
-                            Join Telegram
-                        </Link>
+                        {/* elegram */}
+                       
 
                         <button
                             onClick={toggleSidebar}
@@ -203,14 +184,22 @@ const Navbar = () => {
                                             About
                                             <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                                         </Link>
-                                        {/* <Link
+                                        <Link
+                                            href="/#chart"
+                                            className="relative group text-white block w-fit mb-4 text-3xl"
+                                            onClick={toggleSidebar}
+                                        >
+                                            Chart
+                                            <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                                        </Link>
+                                        <Link
                                             href="/#video"
                                             className="relative group text-white block w-fit mb-4 text-3xl"
                                             onClick={toggleSidebar}
                                         >
                                             Video
                                             <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
-                                        </Link> */}
+                                        </Link>
                                         {/* <Link
                                             href="#"
                                             className="relative group text-white block w-fit mb-4 text-3xl"

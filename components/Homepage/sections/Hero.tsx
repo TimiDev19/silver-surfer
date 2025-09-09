@@ -18,6 +18,11 @@ const tektur = Tektur({
 });
 
 const Hero = () => {
+    const truncateMiddle = (text: string, front = 4, back = 4) => {
+        if (text.length <= front + back) return text;
+        return `${text.slice(0, front)}...${text.slice(-back)}`;
+    };
+
     const [copied, setCopied] = useState(false);
 
     const textToCopy = `218GvpbMt91iGnwxiAfhwP2dc9giBaKi25JLoUADpump`;
@@ -80,7 +85,7 @@ const Hero = () => {
                     </FadeInFromBottom>
                 </div>
 
-                <div className=' lg:w-[40%]'>
+                <div className=' lg:w-[30%]'>
                     <FadeIn>
                         <Image
                             src={heroImg}
@@ -92,13 +97,18 @@ const Hero = () => {
             </div>
             <FadeInFromRight>
                 <div className=' flex items-center justify-end w-full'>
-                    <div className=' bg-white lg:h-[100px] w-[97%] mx-auto lg:mx-0 lg:w-[75%] flex flex-col lg:flex-row items-center justify-between text-black p-4'>
+                    <div className=' lg:h-[100px] w-[97%] mx-auto lg:mx-0 lg:w-fit flex flex-col lg:flex-row items-center justify-center lg:justify-end text-white p-4'>
                         <div className={tektur.className}>
-                            <div onClick={handleCopy} className=' max-w-[90vw] lg:max-w-[30vw] flex flex-col items-center justify-center bg-transparent text-black py-1 w-[95%] lg:w-fit mx-auto lg:mx-0 px-4 rounded-md'>
-                                <h1 className=" w-full truncate mr-4 cursor-pointer font-extrabold text-black break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
+                            <div onClick={handleCopy} className=' max-w-[90vw] lg:max-w-fit flex flex-col items-center justify-center bg-transparent text-white py-1 w-[95%] lg:w-fit mx-auto lg:mx-0 px-4 rounded-md'>
+                                {/* <h1 className=" w-full truncate mr-4 cursor-pointer font-extrabold text-black break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
                                     {textToCopy}
+                                </h1> */}
+                                <h1
+                                    className="w-fit mr-4 cursor-pointer font-extrabold text-white text-md md:text-xl text-center lg:text-3xl max-w-full lg:max-w-fit"
+                                >
+                                    {truncateMiddle(textToCopy)}
                                 </h1>
-                                <h1 className=' cursor-pointer'>{copied ? (<span className="text-black">Text copied to clipboard!</span>) : (<span><CopyAll /> Click to copy CA</span>)}</h1>
+                                <h1 className=' cursor-pointer text-center'>{copied ? (<span className="text-white">Text copied to clipboard!</span>) : (<span><CopyAll /> Click to copy CA</span>)}</h1>
                                 {/* {copied && <} */}
                             </div>
                         </div>
@@ -106,7 +116,7 @@ const Hero = () => {
                         <div className=' lg:w-[45%] text-sm'>
                             <div className={tektur.className}>
                                 Many ventures drift through the void only to consume your light and leave you adrift in darkness…but $SLVR rides a different current.
-                                We are the heralds of change, gliding through the cosmic tide to restore balance and reclaim what is rightfully ours.
+                                He is the Herald of change, gliding through the cosmic tide to restore balance and reclaim what is rightfully ours.
                             </div>
                         </div>
                     </div>

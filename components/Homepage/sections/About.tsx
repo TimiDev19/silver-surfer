@@ -30,7 +30,7 @@ const About = () => {
             </div>
 
             <FadeInFromBottom>
-                <h1 className=' text-3xl lg:text-4xl font-extrabold font-sans mb-4 text-center'>SILVER SURFER IS HERE.</h1>
+                <h1 className=' text-xl lg:text-2xl font-extrabold font-sans mb-4 text-center'>SILVER SURFER...A PHILOSOPHICAL OBSERVER OF THE WORLD AND THE UNIVERSE</h1>
                 <div className=' lg:w-[50%] text-center lg:text-xl text-md mx-auto mb-5'>
                     <p className={tektur.className}>
                         He's the cosmic sentinel of freedom, a lone rider who surfs the endless oceans of the universe on a silver board that cuts through light itself. 
