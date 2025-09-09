@@ -20,7 +20,7 @@ const tektur = Tektur({
 const Hero = () => {
     const [copied, setCopied] = useState(false);
 
-    const textToCopy = `FDmybAAfGAAGQRdxTuWcgoKMTxtrCkWwnfFav5eVmoon`;
+    const textToCopy = `218GvpbMt91iGnwxiAfhwP2dc9giBaKi25JLoUADpump`;
 
     const handleCopy = () => {
         navigator.clipboard.writeText(textToCopy)
@@ -39,12 +39,12 @@ const Hero = () => {
                     <FadeInFromBottom>
                         <div className={tektur.className}>
                             <div className=' font-extrabold uppercase font-sans'>
-                                <h1 className=' text-4xl lg:text-5xl mb-3 text-white'>It's Skinny Nigga Season</h1>
+                                <h1 className=' text-4xl lg:text-5xl mb-3 text-white'>It's Silver Surfer Season</h1>
                                 <div className=' p-2 rounded-lg bg-white text-black w-fit text-3xl lg:text-4xl mb-4'>
                                     <h1 className={tektur.className}>time to take back what's ours!</h1>
                                 </div>
                                 <div className=' flex items-center justify-start'>
-                                    <Link href="https://dexscreener.com/solana/fdmybaafgaagqrdxtuwcgokmtxtrckwwnffav5evmoon"
+                                    <Link href="https://dexscreener.com/solana/cms8lpbnl5aqwjxka8sozfndza96ivugdkxegst7sjja"
                                         target='blank'
                                         className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-white border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                     >
@@ -54,7 +54,7 @@ const Hero = () => {
                                             className=' h-[50px] lg:h-[70px] w-[50px] lg:w-[70px] rounded-full'
                                         />
                                     </Link>
-                                    <Link href="https://t.me/realskinnycto"
+                                    <Link href="https://t.me/slvrsurfersol"
                                         target='blank'
                                         className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-white border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                     >
@@ -64,7 +64,7 @@ const Hero = () => {
                                             className=' h-[50px] lg:h-[70px] w-[50px] lg:w-[70px] rounded-full'
                                         />
                                     </Link>
-                                    <Link href="https://x.com/skinnyfellacto"
+                                    <Link href="https://x.com/i/communities/1961562600598355987"
                                         target='blank'
                                         className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-white border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                     >
@@ -105,8 +105,8 @@ const Hero = () => {
 
                         <div className=' lg:w-[45%] text-sm'>
                             <div className={tektur.className}>
-                                Hey chads, many projects are out to rug you and take all your money but $SKINNY is here to do the opposite. <br />
-                                We're here to make a difference and ensure we all take back what's ours!
+                                Many ventures drift through the void only to consume your light and leave you adrift in darkness…but $SLVR rides a different current.
+                                We are the heralds of change, gliding through the cosmic tide to restore balance and reclaim what is rightfully ours.
                             </div>
                         </div>
                     </div>

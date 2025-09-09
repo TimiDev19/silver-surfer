@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SKINNY NIGGA ($SKINNY)",
+  title: "SILVER SURFER ($SLVR)",
   description: "The People's Memecoin",
 };
 

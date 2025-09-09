@@ -8,7 +8,7 @@ const Homepage = () => {
         <div className=' h-screen overflow-y-scroll scroll-smooth'>
             <Hero />
             <About />
-            <Video />
+            {/* <Video /> */}
         </div>
     )
 }
