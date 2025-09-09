@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React, { useState } from 'react'
-import heroImg from "@/assets/snoop.png"
+import heroImg from "@/public/images/logo.jpg"
 import { Tektur } from 'next/font/google';
 import Link from 'next/link';
 import dex from '@/assets/dex-screener-seeklogo.png'
@@ -90,7 +90,7 @@ const Hero = () => {
                         <Image
                             src={heroImg}
                             alt=''
-                            className=' w-full rounded-3xl'
+                            className=' w-full rounded-3xl border border-white'
                         />
                     </FadeIn>
                 </div>
