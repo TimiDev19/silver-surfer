@@ -41,7 +41,7 @@ const Hero = () => {
                             <div className=' font-extrabold uppercase font-sans'>
                                 <h1 className=' text-4xl lg:text-5xl mb-3 text-white'>It's Silver Surfer Season</h1>
                                 <div className=' p-2 rounded-lg bg-white text-black w-fit text-3xl lg:text-4xl mb-4'>
-                                    <h1 className={tektur.className}>time to take back what's ours!</h1>
+                                    <h1 className={tektur.className}>loneliest man in the universe!</h1>
                                 </div>
                                 <div className=' flex items-center justify-start'>
                                     <Link href="https://dexscreener.com/solana/cms8lpbnl5aqwjxka8sozfndza96ivugdkxegst7sjja"
