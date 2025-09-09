@@ -3,6 +3,7 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Video from './sections/Video'
 import Chart from './sections/Chart'
+import Social from './sections/Social'
 
 const Homepage = () => {
     return (
@@ -11,6 +12,7 @@ const Homepage = () => {
             <About />
             <Chart />
             <Video />
+            <Social/>
         </div>
     )
 }
